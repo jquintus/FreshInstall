@@ -1,4 +1,4 @@
-# To Run From Web:  http://boxstarter.org/package/nr/url?https://gist.githubusercontent.com/jquintus/00610923c715d9569258/raw/BoxsterSetup
+# To Run From Web:  http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/jquintus/QuintusInstall/master/BoxStarter-Setup.ps1
 # To Run From Command Line:  Install-BoxstarterPackage -DisableReboots -PackageName https://gist.githubusercontent.com/jquintus/00610923c715d9569258/raw/BoxsterSetup
 # http://boxstarter.org/WebLauncher
 # References: 
