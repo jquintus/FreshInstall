@@ -12,5 +12,4 @@ Suggested order in which to run these scripts:
 1. [BoxStarter](http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/jquintus/QuintusInstall/master/BoxStarter-Setup.ps1)
 2. Disable Hyper-V
 3. Copy Configs
-4. Configure Path
-5.  [BoxStarter VS Extensions](http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/jquintus/QuintusInstall/master/BoxStarter-VS_Extensions.ps1)
+4.  [BoxStarter VS Extensions](http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/jquintus/QuintusInstall/master/BoxStarter-VS_Extensions.ps1)
