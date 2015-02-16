@@ -21,18 +21,18 @@ Install-WindowsUpdate -acceptEula -getUpdatesFromMS
 
 
 # Must Have Toys
-cinst GoogleChrome
-cinst KickAssVim
-cinst Firefox
-cinst greenshot # Keep this before Dropbox to make sure we get the print screen hooks registered
-cinst keepass
-cinst cmder.portable
-# cinst jquintus.ConEmuConfig #TO DO:  Make this work
+cinst -y GoogleChrome
+cinst -y KickAssVim
+cinst -y Firefox
+cinst -y greenshot # Keep this before Dropbox to make sure we get the print screen hooks registered
+cinst -y keepass
+cinst -y cmder.portable
+# cinst -y jquintus.ConEmuConfig #TO DO:  Make this work
 
 # Big Toys
-#cinst VisualStudio2013Ultimate Blend SQL Win8SDK WindowsPhone80 WebTools
-#cinst xamarin-visualstudio
-#cinst visualstudio2013-webessentials.vsix
+#cinst -y VisualStudio2013Ultimate Blend SQL Win8SDK WindowsPhone80 WebTools
+#cinst -y xamarin-visualstudio
+#cinst -y visualstudio2013-webessentials.vsix
 #Install-ChocolateyVsixPackage CodeMaid http://visualstudiogallery.msdn.microsoft.com/76293c4d-8c16-4f4a-aee6-21f83a571496/file/9356/28/CodeMaid_v0.7.4.vsix
 #Install-ChocolateyVsixPackage NunitTestAdapter http://visualstudiogallery.msdn.microsoft.com/6ab922d0-21c0-4f06-ab5f-4ecd1fe7175d/file/66177/15/NUnitVisualStudioTestAdapter-1.2.vsix
 #Install-ChocolateyVsixPackage ProductifyPowerTools2013 http://visualstudiogallery.msdn.microsoft.com/dbcb8670-889e-4a54-a226-a48a15e4cace/file/117115/4/ProPowerTools.vsix
@@ -41,47 +41,47 @@ cinst cmder.portable
 #Install-ChocolateyVsixPackage VSCommandsForVisualStudio http://visualstudiogallery.msdn.microsoft.com/c6d1c265-7007-405c-a68b-5606af238ece/file/106247/18/SquaredInfinity.VSCommands.VS12.vsix
 
 # Less Important Toys
-cinst fiddler4
-cinst 7zip.install
-cinst sysinternals
-cinst ditto
-cinst filezilla
+cinst -y fiddler4
+cinst -y 7zip.install
+cinst -y sysinternals
+cinst -y ditto
+cinst -y filezilla
 
-cinst binroot
+cinst -y binroot
 
-cinst winmerge
-cinst mpc-hc
-cinst dropbox
-cinst git
-cinst putty
-cinst autohotkey.portable
-cinst calibre
+cinst -y winmerge
+cinst -y mpc-hc
+cinst -y dropbox
+cinst -y git
+cinst -y putty
+cinst -y autohotkey.portable
+cinst -y calibre
 
-cinst boxstarter.chocolatey
-cinst MicrosoftSecurityEssentials
-cinst WinDirStat
-cinst WindowsLiveWriter
-cinst SourceTree
-cinst autohotkey
+cinst -y boxstarter.chocolatey
+cinst -y MicrosoftSecurityEssentials
+cinst -y WinDirStat
+cinst -y WindowsLiveWriter
+cinst -y SourceTree
+cinst -y autohotkey
 
 #Less important things near the bottom
-cinst spotify
-cinst picasa
-cinst dependencywalker
-cinst paint.net
-cinst ScriptCs
-cinst winmerge
+cinst -y spotify
+cinst -y picasa
+cinst -y dependencywalker
+cinst -y paint.net
+cinst -y ScriptCs
+cinst -y winmerge
 
 
 #Bigger things towards the end
-#cinst AndroidStudio # I could never get this app to work
-#cinst genymotion
+#cinst -y AndroidStudio # I could never get this app to work
+#cinst -y genymotion
 
 
 # Blocking Installers (keep these last)
-cinst trillian
-cinst markdownpad2
-cinst truecrypt
+cinst -y trillian
+cinst -y markdownpad2
+cinst -y truecrypt
 
 
 # 7zip 9.22.01.20130618
