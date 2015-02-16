@@ -75,7 +75,7 @@ cinst winmerge
 
 #Bigger things towards the end
 #cinst AndroidStudio # I could never get this app to work
-cinst genymotion
+#cinst genymotion
 
 
 # Blocking Installers (keep these last)
