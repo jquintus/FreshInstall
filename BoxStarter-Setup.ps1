@@ -64,6 +64,11 @@ cinst -y WindowsLiveWriter
 cinst -y SourceTree
 cinst -y autohotkey
 
+cinst -y GnuWin
+cinst -y nodejs.install
+cinst -y npm
+cinst -y mongodb
+
 #Less important things near the bottom
 cinst -y spotify
 cinst -y picasa
