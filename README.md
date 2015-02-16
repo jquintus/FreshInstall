@@ -13,3 +13,7 @@ Suggested order in which to run these scripts:
 2. Disable Hyper-V
 3. Copy Configs
 4.  [BoxStarter VS Extensions](http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/jquintus/QuintusInstall/master/BoxStarter-VS_Extensions.ps1)
+
+
+In order to run a powershell script from the command line
+`powershell -file Disable_Hyper-v.ps1`
