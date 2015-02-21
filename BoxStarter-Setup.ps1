@@ -10,6 +10,14 @@
 $Boxstarter.NoPassword=$false # Is this a machine with no login password?
 $Boxstarter.AutoLogin=$true # Save my password securely and auto-login after a reboot
 
+# Set the computer name
+$defaultComputerName = "Acer-S7"
+$computerName = Read-Host -Prompt "Please Enter the computer name [$defaultComputerName]"
+if ($computerName -eq '') { $computerName = $defaultComputerName}
+
+Write-Output "Setting computer name to $computerName"
+Rename-Computer $computerName
+
 # Windows Options
 Set-TaskbarOptions -lock
 Set-StartScreenOptions -EnableBootToDesktop -EnableDesktopBackgroundOnStart -EnableShowStartOnActiveScreen
