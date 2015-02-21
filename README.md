@@ -22,6 +22,7 @@ In order to run a powershell script from the command line `powershell -file Disa
 
 
 [Min Install](http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/jquintus/QuintusInstall/master/BoxStarter-Min.ps1)
+[Tests](http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/jquintus/QuintusInstall/master/tests.ps1)
 
 ![Task](https://raw.githubusercontent.com/jquintus/QuintusInstall/master/images/task.png)
 ![Start](https://raw.githubusercontent.com/jquintus/QuintusInstall/master/images/start.png)
