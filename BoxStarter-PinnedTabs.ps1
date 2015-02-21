@@ -6,6 +6,5 @@ Install-ChocolateyPinnedTaskBarItem "C:\Program Files (x86)\vim\vim74\gvim.exe" 
 Install-ChocolateyPinnedTaskBarItem "C:\Program Files\ConEmu\ConEmu64.exe" -ErrorAction SilentlyContinue
 Install-ChocolateyPinnedTaskBarItem "C:\Program Files\paint.net\PaintDotNet.exe" -ErrorAction SilentlyContinue
 Install-ChocolateyPinnedTaskBarItem "C:\Program Files (x86)\Trillian\trillian.exe" -ErrorAction SilentlyContinue
-Install-ChocolateyPinnedTaskBarItem "C:\WINDOWS\explorer.EXE" -ErrorAction SilentlyContinue
 Install-ChocolateyPinnedTaskBarItem "C:\Program Files (x86)\KeePass Password Safe 2\KeePass.exe" -ErrorAction SilentlyContinue
 Install-ChocolateyPinnedTaskBarItem "C:\Program Files\MPC-HC\mpc-hc64.exe" -ErrorAction SilentlyContinue
