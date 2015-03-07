@@ -84,6 +84,7 @@ cinst -y dependencywalker
 cinst -y paint.net
 cinst -y ScriptCs
 cinst -y winmerge
+cinst -y windowslivewriter
 
 
 #Bigger things towards the end
