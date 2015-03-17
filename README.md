@@ -14,7 +14,7 @@
 3. Copy Configs
 5. [BoxStarter Pin Tabs](http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/jquintus/QuintusInstall/master/BoxStarter-PinnedTabs.ps1)
 4. [BoxStarter VS Extensions](http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/jquintus/QuintusInstall/master/BoxStarter-VS_Extensions.ps1)
-
+5. [Work Machine](http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/jquintus/QuintusInstall/master/BoxStarter-Work.ps1)
 
 
 In order to run a powershell script from the command line `powershell -file Disable_Hyper-v.ps1`
