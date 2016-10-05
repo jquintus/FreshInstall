@@ -51,6 +51,7 @@ cinst -y cmder.portable
 # Less Important Toys
 cinst -y fiddler4
 cinst -y 7zip.install
+cinst -y  7zip.commandline
 cinst -y sysinternals
 cinst -y ditto
 cinst -y filezilla
@@ -85,19 +86,43 @@ cinst -y paint.net
 cinst -y ScriptCs
 cinst -y winmerge
 cinst -y windowslivewriter
+cinst -y  NugetPackageExplorer
+cinst -y  curl
+cinst -y  debugdiagnostic
+cinst -y  ilspy
+cinst -y  mfcmapi
+cinst -y  nunit.install
+cinst -y  putty.portable
+cinst -y  python
+cinst -y  rainmeter
+cinst -y  RapidEE
+cinst -y  regexpixie
+cinst -y  ruby
+cinst -y  screentogif
+cinst -y  SQLite
+cinst -y  sqlite.shell
+cinst -y  sqlitebrowser
+cinst -y  TidyJson.portable
+cinst -y  windbg
+cinst -y  windirstat
+cinst -y  WindowsAzurePowershell
+cinst -y  vcredist2010
 
+# Tools I Wrote
+cinst -y  ColorCat.portable
+cinst -y  LogStitcher.portable
 
 #Bigger things towards the end
 #cinst -y AndroidStudio # I could never get this app to work
 #cinst -y genymotion
 
-
 # Blocking Installers (keep these last)
-cinst -y trillian
 cinst -y markdownpad2
 cinst -y truecrypt
 
-
+################################################################
+# Output of `clist -lo` on my home machine in 2015
+################################################################
 # 7zip 9.22.01.20130618
 # 7zip.commandline 9.20.0.20130618
 # 7zip.install 9.22.01.20130618
