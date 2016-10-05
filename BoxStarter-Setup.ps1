@@ -95,6 +95,7 @@ cinst -y  windbg
 cinst -y  windirstat
 cinst -y  WindowsAzurePowershell
 cinst -y  vcredist2010
+cinst -y wixtoolset
 
 # Tools I Wrote
 cinst -y  ColorCat.portable
