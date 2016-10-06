@@ -44,7 +44,7 @@ cinst -y sysinternals
 cinst -y ditto
 cinst -y filezilla
 
-cinst -y binroot
+cinst -y slack
 
 cinst -y winmerge
 cinst -y mpc-hc
